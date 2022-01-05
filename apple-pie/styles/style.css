@@ -1,0 +1,40 @@
+* {
+  font-family: "Helvetica", "Arial";
+}
+
+body {
+    
+    
+}
+
+.head {
+  font-size: 60px;  
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background: url(../images/apple-pie.jpg);
+  background-size: cover;
+  height: 500px;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.text1 {
+    position: relative;
+    margin-left: 250px;
+    margin-right: 175px;
+}
+
+/* both images should be shrinked a bit */
+.cookline {
+  flex-direction: row;
+  height: 100px;
+  background: url(../images/cooking-info.png);
+}
+
+.recipeline {
+  flex-direction: row;
+  height: 100px;
+  background: url(../images/recipe-info.png); 
+}
